@@ -20,3 +20,6 @@ function prependKitten(name){
   var kit = [name, ...kittens];
   return kit;
 }
+function removeLastKitten(){
+  return kitten.slice(-1);
+}
